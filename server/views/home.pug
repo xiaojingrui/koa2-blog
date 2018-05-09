@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title=  title
+    body
+        div(id='app')
+        script(src='/output/home.js')
+        script.
+            console.log('pug ', window);
+            let id = "#{id}";
+            console.log('id = ', id);
+            window.id = id;
+            console.log('window.id = ', window.id);
+
+        
